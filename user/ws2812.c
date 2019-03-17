@@ -4,8 +4,6 @@
 //#include "mystuff.h"
 #include "osapi.h"
 #include <commonservices.h>
-#define GPIO_OUTPUT_SET(gpio_no, bit_value) \
-	gpio_output_set(bit_value<<gpio_no, ((~bit_value)&0x01)<<gpio_no, 1<<gpio_no,0)
 
 //I just used a scope to figure out the right time periods.
 
